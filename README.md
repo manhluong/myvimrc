@@ -1,4 +1,4 @@
-#My Personal .vimrc
+# My Personal .vimrc
 
 To use, simply create a symlink:
 ```
