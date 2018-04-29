@@ -21,8 +21,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'sbdchd/neoformat'
 "Plugin to asynchronously run programs ( https://github.com/neomake/neomake.git )
 Plug 'neomake/neomake'
-"Asynchronous Lint Engine ( https://github.com/w0rp/ale )
-Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -41,4 +39,3 @@ au BufNewFile,BufRead *.py
 
 let g:lsc_server_commands = {'dart': 'dart_language_server'}
 let g:lsc_auto_map = v:true " Use defaults
-
