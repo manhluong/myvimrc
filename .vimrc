@@ -27,6 +27,8 @@ Plug 'neomake/neomake'
 Plug 'SirVer/ultisnips'
 "Snippets ( https://github.com/SirVer/ultisnips )
 Plug 'honza/vim-snippets'
+"Git integration ( https://github.com/tpope/vim-fugitive )
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
