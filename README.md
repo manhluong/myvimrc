@@ -1,8 +1,6 @@
-# My Personal .vimrc
-
 ## Plugin manager
 
-I use [vim-plug](https://github.com/junegunn/vim-plug).
+[vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Usage
 
