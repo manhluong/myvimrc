@@ -23,6 +23,10 @@ Plug 'scrooloose/nerdtree'
 Plug 'sbdchd/neoformat'
 "Plugin to asynchronously run programs ( https://github.com/neomake/neomake.git )
 Plug 'neomake/neomake'
+"Snippets engine ( https://github.com/SirVer/ultisnips )
+Plug 'SirVer/ultisnips'
+"Snippets ( https://github.com/SirVer/ultisnips )
+Plug 'honza/vim-snippets'
 
 call plug#end()
 
@@ -31,3 +35,8 @@ set nu
 
 let g:lsc_server_commands = {'dart': 'dart_language_server'}
 let g:lsc_auto_map = v:true " Use defaults
+
+"UltiSnips configuration
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
