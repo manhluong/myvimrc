@@ -29,6 +29,9 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 "Git integration ( https://github.com/tpope/vim-fugitive )
 Plug 'tpope/vim-fugitive'
+"Fuzzy search ( https://github.com/junegunn/fzf )
+"- Usage ( https://github.com/junegunn/fzf/blob/master/README-VIM.md )
+Plug 'junegunn/fzf'
 
 call plug#end()
 
