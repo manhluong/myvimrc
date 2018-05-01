@@ -14,6 +14,8 @@ Plug 'elzr/vim-json'
 Plug 'pangloss/vim-javascript'
 "Javascript JSX Plugin ( https://github.com/mxw/vim-jsx.git )
 Plug 'mxw/vim-jsx'
+"Dockerfile ( https://github.com/moby/moby/tree/master/contrib/syntax/vim )
+Plug 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
 
 "File system explorer ( https://github.com/scrooloose/nerdtree.git )
 Plug 'scrooloose/nerdtree'
