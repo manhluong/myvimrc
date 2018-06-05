@@ -16,6 +16,8 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 "Dockerfile ( https://github.com/moby/moby/tree/master/contrib/syntax/vim )
 Plug 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
+"Gradle file ( https://github.com/tfnico/vim-gradle )
+Plug 'tfnico/vim-gradle'
 
 "File system explorer ( https://github.com/scrooloose/nerdtree.git )
 Plug 'scrooloose/nerdtree'
